@@ -1,5 +1,5 @@
 from locust import HttpLocust, TaskSet, task
-from config_apps import get_random_app
+from tool.config_apps import get_random_app
 
 class UserBehavior(TaskSet):
 
